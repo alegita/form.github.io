@@ -66,7 +66,7 @@ Rellena todos los campos
               <label for="country" class="form-label">Pais</label>
               <select class="form-select" id="country" required="">
                 <option value="">Escoger...</option>
-                <option>Bolivia</option>
+                <option value="bo">Bolivia</option>
               </select>
               <div class="invalid-feedback">
                 Please select a valid country.
@@ -77,9 +77,9 @@ Rellena todos los campos
               <label for="state" class="form-label">Ciudad</label>
               <select class="form-select" id="state" required="">
                 <option value="">Escoger...</option>
-                <option>La Paz</option>
-                <option>Cochabamba</option>
-                <option>Santa Cruz</option>
+                <option value="lp">La Paz</option>
+                <option value="cbba">Cochabamba</option>
+                <option value="scz">Santa Cruz</option>
               </select>
               <div class="invalid-feedback">
                 Please provide a valid state.

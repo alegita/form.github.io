@@ -1,5 +1,5 @@
 
-### Contactos
+## Contactos
 
 Rellena todos los campos
 <!-- CSS only -->
@@ -97,11 +97,11 @@ Rellena todos los campos
             </div>
             <div class="form-check">
               <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
-              <label class="form-check-label" for="debit">arjeta de debito</label>
+              <label class="form-check-label" for="debit">Tarjeta de debito</label>
             </div>            
           </div>
 
           <hr class="my-4">
 
-          <button class="w-100 btn btn-primary btn-lg" type="submit">Enviar</button>
+          <button class="w-100 btn btn-danger btn-lg" type="submit">Enviar</button>
         </form>

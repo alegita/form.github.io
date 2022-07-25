@@ -54,6 +54,14 @@ Rellena todos los campos
               </div>
             </div>
 
+           <div class="col-12">
+              <label for="phonenumber" class="form-label">Teléfono</label>
+              <input type="text" class="form-control" id="phonenumber" placeholder=" " required="">
+              <div class="invalid-feedback">
+                Please enter your phone number.
+              </div>
+            </div>
+    
             <div class="col-md-5">
               <label for="country" class="form-label">Pais</label>
               <select class="form-select" id="country" required="">
